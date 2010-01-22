@@ -1,8 +1,8 @@
-application: guestbook
+application: redirect
 version: 1
 runtime: python
 api_version: 1
 
 handlers:
-- url: /.*
-  script: guestbook.py
+- url: /r/.*
+  script: redirect.py

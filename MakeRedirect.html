@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h3>Make an alias for: {{ alias }}</h3>
+
+    <form action="/r/" method="post">
+      <div><input name="alias" type="hidden" value="{{ alias }}"></div>
+      <div><textarea name="redirect_to" rows="3" cols="60"></textarea></div>
+      <div><input type="submit" value="Make Redirect"></div>
+    </form>
+
+  </body>
+</html>
